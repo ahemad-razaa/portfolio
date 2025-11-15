@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ultra Premium Portfolio — Your Name</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Decorative discs -->
+  <div class="bg-disc d1"></div>
+  <div class="bg-disc d2"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="brand">
+      <div class="logo">YN</div>
+      <div>
+        <div style="font-weight:800">Ahemad Raza Ansari</div>
+        <div class="tiny muted">Designer • Web Developer • Creator</div>
+      </div>
+    </div>
+
+    <div class="links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-ghost" href="mailto:yourname@example.com">Hire Me</a>
+    </div>
+
+    <div class="burger" id="burger" style="display:none">
+      <svg width="22" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <main class="hero">
+    <div class="hero-inner">
+      <div class="intro" id="about">
+        <div class="eyebrow"> PORTFOLIO</div>
+        <h1>Hey — I'm <span style="color:var(--accent2);">Ahemad Raza Ansari</span>, a <span class="typed" id="typedText">Premium Designer</span></h1>
+        <p class="lead">I build high-converting, ultra-premium websites and visual identities that command attention and revenue. If you want a product that looks & feels like a luxury brand — you're in the right place.</p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#work">See my work</a>
+          <a class="btn btn-ghost" href="https://example.com/resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
+          <div class="tiny muted">Available for:</div>
+          <div class="stat">Freelance Projects</div>
+          <div class="stat">Full-time</div>
+          <div class="stat">Brand Partnerships</div>
+        </div>
+      </div>
+
+      <aside class="profile-card" aria-hidden="false">
+        <div class="profile-photo">
+          <!-- Replace the profile image URL with your own photo -->
+          <img src="ahemad2.png.png" alt="Your profile photo">
+        </div>
+
+        <div class="profile-info">
+          <div style="font-weight:800; font-size:18px">Ahemad Raza</div>
+          <div class="role muted"> Web Developer • Designer • Brand Strategist</div>
+
+          <div class="stats" style="margin-top:12px">
+            <div class="stat">2+ yrs exp</div>
+            <div class="stat">50+ projects</div>
+            <div class="stat">Global clients</div>
+          </div>
+
+          <div style="margin-top:12px; display:flex; gap:8px">
+            <a class="btn btn-primary" href="mailto:yourname@example.com">Let's talk</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- CONTENT SECTIONS -->
+  <div class="sections">
+
+    <!-- WORK / PROJECTS -->
+    <section class="section" id="work">
+      <h2>Featured Work</h2>
+      <div class="muted tiny" style="margin-bottom:12px">Premium branding, websites & campaigns that convert.</div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="proj" data-img="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=3a5a0a3d6db2b8a1f8f9b3d0f7b8c2d3">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3a5a0a3d6db2b8a1f8f9b3d0f7b8c2d3" alt="Project 1">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:800">Luxury Brand Campaign</div>
+              <div class="tiny muted">Branding • Visuals • OOH</div>
+            </div>
+            <div class="tiny">View</div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="proj" data-img="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=35b2d4ef6c4b9f7c4a2b3c1d2e3f4a5b">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=35b2d4ef6c4b9f7c4a2b3c1d2e3f4a5b" alt="Project 2">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:800">SaaS Website Redesign</div>
+              <div class="tiny muted">UI/UX • Frontend</div>
+            </div>
+            <div class="tiny">View</div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="proj" data-img="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=5c8a3c7b9b5c6a7c8d9e0f1a2b3c4d5e">
+          <img src="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=5c8a3c7b9b5c6a7c8d9e0f1a2b3c4d5e" alt="Project 3">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:800">E-commerce Luxury UI</div>
+              <div class="tiny muted">Design • Conversion</div>
+            </div>
+            <div class="tiny">View</div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="proj" data-img="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=8c9c3a2b4e5f6a7b8c9d0e1f2a3b4c5d">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=8c9c3a2b4e5f6a7b8c9d0e1f2a3b4c5d" alt="Project 4">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:800">Campaign Visuals</div>
+              <div class="tiny muted">Art Direction • Motion</div>
+            </div>
+            <div class="tiny">View</div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="proj" data-img="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=fc9b2b3d4e5f6a7b8c9d0e1f2a3b4c5d">
+          <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=fc9b2b3d4e5f6a7b8c9d0e1f2a3b4c5d" alt="Project 5">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:800">Product Launch Assets</div>
+              <div class="tiny muted">Creative • Production</div>
+            </div>
+            <div class="tiny">View</div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="proj" data-img="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d" alt="Project 6">
+          <div class="overlay">
+            <div>
+              <div style="font-weight:800">Full Brand System</div>
+              <div class="tiny muted">Strategy • Identity</div>
+            </div>
+            <div class="tiny">View</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <h2>Services & Deliverables</h2>
+      <div class="muted tiny" style="margin-bottom:12px">Everything you'd expect from a top-tier studio — delivered by one human.</div>
+
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:12px">
+        <div class="contact-card">
+          <strong>Branding</strong>
+          <div class="tiny muted">Identity, guidelines, assets, packaging</div>
+        </div>
+        <div class="contact-card">
+          <strong>Web Design</strong>
+          <div class="tiny muted">High-converting landing pages & apps</div>
+        </div>
+        <div class="contact-card">
+          <strong>Motion</strong>
+          <div class="tiny muted">Hero loops, anims, social clips</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact & Bookings</h2>
+      <div class="muted tiny">Ready to build something exceptional? Let's talk about scope & price.</div>
+
+      <div class="spacer"></div>
+
+      <div class="contact-grid">
+        <div>
+          <div class="contact-card">
+            <strong>Let's build something premium</strong>
+            <p class="muted tiny" style="margin-top:8px">Email me with a short brief and your budget — I’ll respond with a proposal & estimated timeline.</p>
+
+            <div style="margin-top:14px">
+              <div class="tiny muted">Email</div>
+              <div style="font-weight:800">ahemad.raza.arr@gmail.com</div>
+            </div>
+
+            <div style="margin-top:12px">
+              <div class="tiny muted">Phone</div>
+              <div style="font-weight:800">+91 75874 58781</div>
+            </div>
+
+            <div style="margin-top:14px">
+              <a class="btn btn-primary" href="mailto:yourname@example.com">Email me</a>
+              <a class="btn btn-ghost" href="https://calendly.com/" target="_blank" rel="noopener">Book a call</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-card">
+            <strong>Project brief</strong>
+            <div class="tiny muted" style="margin-top:8px">Copy & paste this into your email:</div>
+            <textarea style="width:100%; margin-top:10px; height:120px; resize:none; border-radius:10px; padding:10px; border:1px solid rgba(255,255,255,0.03); background:transparent; color:var(--text)">
+Quick brief:
+• Project type:
+• Budget:
+• Timeline:
+• Key goals:
+• Examples I like:
+            </textarea>
+            <div style="margin-top:10px" class="tiny muted">Tip: include links and examples — saves time & gets a better proposal.</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="inner">
+      <button class="close-x" id="lightboxClose">✕</button>
+      <img src="" alt="Preview" id="lightboxImg">
+    </div>
+  </div>
+
+  <footer>
+    <div class="muted tiny">© <strong>Your Name</strong> — Ultra Premium Portfolio • Crafted 2025</div>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    // Typing effect for the headline (rotates words)
+    (function(){
+      const words = ['World-class Designer', 'Full-Stack Developer', 'Brand Strategist', 'Visual Storyteller'];
+      let i = 0, j = 0, forward = true;
+      const el = document.getElementById('typedText');
+      const speed = 70;
+      function step(){
+        el.textContent = words[i].slice(0, j);
+        if(forward){
+          if(j++ === words[i].length){ forward=false; setTimeout(step, 900); return; }
+        } else {
+          if(j-- === 0){ forward=true; i=(i+1)%words.length; setTimeout(step, 200); return; }
+        }
+        setTimeout(step, speed);
+      }
+      step();
+    })();
+
+    // Projects lightbox
+    (function(){
+      const projects = document.querySelectorAll('.proj');
+      const lightbox = document.getElementById('lightbox');
+      const img = document.getElementById('lightboxImg');
+      const close = document.getElementById('lightboxClose');
+
+      projects.forEach(p=>{
+        p.addEventListener('click', ()=> {
+          const src = p.getAttribute('data-img') || p.querySelector('img').src;
+          img.src = src;
+          lightbox.style.display = 'flex';
+          lightbox.setAttribute('aria-hidden','false');
+        });
+      });
+
+      close.addEventListener('click', ()=> {
+        lightbox.style.display = 'none';
+        lightbox.setAttribute('aria-hidden','true');
+        img.src = '';
+      });
+
+      lightbox.addEventListener('click', (e)=>{
+        if(e.target === lightbox) { close.click(); }
+      });
+    })();
+
+    // Smooth scroll for nav anchors
+    (function(){
+      const links = document.querySelectorAll('a[href^="#"]');
+      for(const a of links){
+        a.addEventListener('click', function(e){
+          const target = document.querySelector(this.getAttribute('href'));
+          if(target){
+            e.preventDefault();
+            target.scrollIntoView({behavior:'smooth', block:'start'});
+          }
+        });
+      }
+    })();
+
+    // Mobile nav toggle (simple)
+    (function(){
+      const burger = document.getElementById('burger');
+      const navLinks = document.getElementById('navLinks');
+      if(!burger) return;
+      burger.addEventListener('click', ()=>{
+        if(navLinks.style.display === 'flex'){ navLinks.style.display = ''; }
+        else { navLinks.style.display = 'flex'; navLinks.style.flexDirection='column'; navLinks.style.alignItems='flex-end' }
+      });
+      // show burger only on small screens
+      function check(){
+        if(window.innerWidth <= 880){
+          burger.style.display = 'flex';
+        } else {
+          burger.style.display = 'none';
+          navLinks.style.display = '';
+        }
+      }
+      check();
+      window.addEventListener('resize', check);
+    })();
+  </script>
+
+</body>
+</html>
